@@ -72,3 +72,14 @@
   }
   
   /*--------------------*/
+
+  .container-fluid{
+    width: 100%;
+  }
+
+  .container{
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  @import "blocks/offers";
