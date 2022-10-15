@@ -93,6 +93,7 @@ body {
 .offers__content {
   border: 0.3px solid #828282;
   border-radius: 16px;
+  padding-bottom: 19px;
 }
 
 .offers__card_list {
@@ -107,8 +108,26 @@ body {
   width: 100%;
 }
 
+.card__img {
+  position: relative;
+}
 .card__img img {
   width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.card__img .card__img-new {
+  position: absolute;
+  background: #FED74B;
+  top: 41px;
+  left: 0px;
+}
+.card__img .card__img-new p {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+  color: #3E3E3E;
+  padding: 8px 17px;
 }
 
 .card__text {
@@ -180,12 +199,38 @@ body {
   padding: 6px 13px;
 }
 
+.card__price {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
 .card__price-text p {
   font-weight: 400;
   font-size: 30px;
-  line-height: 20px;
+  line-height: 15px;
   /* or 67% */
   color: #000000;
+}
+.card__price-text span {
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.card__price-btn {
+  background: #FED74B;
+  border: 0.5px solid #CBA500;
+  border-radius: 20px;
+  padding: 12px 41px;
+}
+
+.main-btn {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  color: #404040;
 }
 
 /* font-family: 'Open Sans', sans-serif; *//*# sourceMappingURL=style.css.map */
