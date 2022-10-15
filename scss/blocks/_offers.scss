@@ -1,16 +1,15 @@
 .offers{
     margin-top: 26px;
 }
-.offers__content {
-    border: 0.3px solid #828282;
-    border-radius: 16px;
-    padding-bottom: 19px;
-}
 .offers__card_list {
     width: 100%;
 }
 .offers__card-item {
     width: 100%;
+    border: 0.3px solid #828282;
+    border-radius: 16px;
+    padding-bottom: 19px;
+    margin-bottom: 30px;
 }
 .card__content {
     width: 100%;
@@ -34,6 +33,11 @@
         color: #3E3E3E;
         padding: 8px 17px;
         }
+    }
+    .card__new-blue{
+    background: #7553FF;
+    border-radius: 15px 0px 12px;
+    top: 0px;
     }
 }
 .card__text {
@@ -61,8 +65,6 @@
     font-size: 14px;
     line-height: 22px;
 }
-.card__privilege {
-}
 .card__privilege-list {
     margin-top: 20px;
 }
@@ -71,8 +73,6 @@
     font-size: 14px;
     line-height: 20px;
     /* or 143% */
-
-
     color: #4B4B4B;
     display: flex;
     align-items: flex-start;
