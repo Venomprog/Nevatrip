@@ -1,3 +1,102 @@
 .offers{
     margin-top: 26px;
 }
+.offers__content {
+    border: 0.3px solid #828282;
+    border-radius: 16px;
+}
+.offers__card_list {
+    width: 100%;
+}
+.offers__card-item {
+    width: 100%;
+}
+.card__content {
+    width: 100%;
+}
+.card__img {
+    img{
+        width: 100%;
+    }
+    
+}
+.card__text {
+    padding: 0px 12px;
+}
+.card__text-time {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    span{
+        color: #828282;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    img{
+        width: 16px;
+        height: 16px;
+    }
+}
+.card__title {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+}
+.card__privilege {
+}
+.card__privilege-list {
+    margin-top: 20px;
+}
+.privelege__item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+
+    color: #4B4B4B;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 9px;
+    &::before{
+        content: url("/images/check-mark.png");
+        margin-right: 20px;
+    }
+}
+.card__voyage {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+.card__voyage-list {
+    display: flex;
+    gap: 7px;
+}
+.voyage__item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    color: #343434;
+    background: #D9E8FF;
+    border-radius: 11px;
+    padding: 6px 13px;
+}
+.card__price {
+}
+.card__price-text {
+    p{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 20px;
+    /* or 67% */
+    color: #000000;
+    }
+}
+.card__price-btn {
+}
+.main-btn {
+}
