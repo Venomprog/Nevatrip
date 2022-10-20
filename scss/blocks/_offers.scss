@@ -88,8 +88,12 @@
     margin-top: 13px;
 }
 .card__voyage-list {
+    transition: all 0.5s;
     display: flex;
     gap: 7px;
+    &:nth-child(2){
+        margin-top: 20px;
+    }
 }
 .voyage__item {
     font-weight: 400;
@@ -132,4 +136,22 @@ font-size: 14px;
 line-height: 20px;
 /* or 143% */
 color: #404040;
+}
+
+.voyage-add-btn{
+    margin: 10px auto;
+    text-align: center;
+    width: 75px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    color: #343434;
+    background: #D9E8FF;
+    border-radius: 11px;
+    padding: 6px 13px;
+}
+.hidden-list{
+    transition: all 0.5s;
+    display: none;
 }
