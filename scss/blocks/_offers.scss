@@ -151,6 +151,19 @@ color: #404040;
     border-radius: 11px;
     padding: 6px 13px;
 }
+.voyage-close-btn{
+    margin: 10px auto;
+    text-align: center;
+    width: 75px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    color: #343434;
+    background: #D9E8FF;
+    border-radius: 11px;
+    padding: 6px 13px;
+}
 .hidden-list{
     transition: all 0.5s;
     display: none;
