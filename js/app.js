@@ -1,7 +1,7 @@
 "use strict";
 
 const moreTimeBtn = document.querySelector('.voyage-add-btn');
-const closeTimeBtn = document.querySelector('.voyage-close-btn')
+const closeTimeBtn = document.querySelector('.voyage-close-btn');
 const timeBlock = document.querySelector('.more-time');
 
 moreTimeBtn.addEventListener('click', () =>{
@@ -15,3 +15,5 @@ closeTimeBtn.addEventListener('click', () =>{
     closeTimeBtn.classList.add('hidden-list');
     moreTimeBtn.classList.remove('hidden-list');
 });
+
+//Следует доработать
