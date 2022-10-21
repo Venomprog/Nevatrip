@@ -30,4 +30,4 @@ closeTimeBtns.forEach(item =>{
 });
 
 
-//Yfgjkjdbye hf,jnftv? ghjhf,jnfnm ryjgrb ye;yj
+//Доработать кнопки правильно!
