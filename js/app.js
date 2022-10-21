@@ -1,19 +1,30 @@
 "use strict";
+const moreTimeBtns = document.querySelectorAll('.voyage-add-btn');
+const closeTimeBtns = document.querySelectorAll('.voyage-close-btn');
+const timeBlocks = document.querySelectorAll('.more-time');
 
-const moreTimeBtn = document.querySelector('.voyage-add-btn');
-const closeTimeBtn = document.querySelector('.voyage-close-btn');
-const timeBlock = document.querySelector('.more-time');
+function openBlock(item){
+    item.classList.add('hidden-list');
+    timeBlocks.forEach(item =>{
+        item.classList.remove('hidden-list');
+    });
+}
 
-moreTimeBtn.addEventListener('click', () =>{
-    timeBlock.classList.remove('hidden-list'); //При нажатии показывает доп. время
-    closeTimeBtn.classList.remove('hidden-list');
-    moreTimeBtn.classList.add('hidden-list');
+function closeBlock(item){
+    item.classList.add('hidden-list');
+    timeBlocks.forEach(item =>{
+        item.classList.add('hidden-list');
+    });
+}
 
+moreTimeBtns.forEach(item =>{
+    item.addEventListener('click', (e) => {
+        openBlock(e.target);
+    });
 });
-closeTimeBtn.addEventListener('click', () =>{
-    timeBlock.classList.add('hidden-list'); //При нажатии убирает доп. время
-    closeTimeBtn.classList.add('hidden-list');
-    moreTimeBtn.classList.remove('hidden-list');
-});
 
-//Следует доработать
+closeTimeBtns.forEach(item =>{
+    item.addEventListener('click', (e) => {
+        closeBlock(e.target);
+    });
+});
