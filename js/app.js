@@ -28,3 +28,5 @@ closeTimeBtns.forEach(item =>{
         closeBlock(e.target, num);
     });
 });
+
+//all works correctly
