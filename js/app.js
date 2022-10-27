@@ -29,7 +29,7 @@ closeTimeBtns.forEach(item =>{
     });
 });
 
-//all works correctly123411213
+//all works correctly1234
 
 
 //comments end
