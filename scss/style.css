@@ -77,6 +77,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+main {
+  padding-bottom: 10px;
+}
+
 .container-fluid {
   width: 100%;
 }
@@ -100,6 +104,11 @@ body {
   border-radius: 16px;
   padding-bottom: 19px;
   margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .offers__card-item {
+    padding-bottom: 0px;
+  }
 }
 
 .card__content {
@@ -276,12 +285,17 @@ body {
 @media screen and (min-width: 768px) {
   .card__content {
     display: flex;
+    gap: 20px;
     height: 370px;
   }
   .card__content .card__img {
-    flex: 1;
     width: 470px;
     height: 370px;
+  }
+  .card__content .card__img img {
+    width: 470px;
+    height: 370px;
+    border-radius: 0px 0px 0px 10px;
   }
   .card__content .card__text {
     flex: 1;
@@ -292,9 +306,25 @@ body {
   .card__content .card__price {
     margin-top: 10px;
   }
+  .card__content .privelege__item {
+    margin-bottom: 5px;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .card__voyage {
+    width: 325px;
+    margin: 10px 0px;
+  }
+  .card__voyage .card__voyage-list {
+    width: 325px;
+  }
+  .card__voyage .card__voyage-list.more-time {
+    margin-top: 10px;
+  }
+  .card__voyage .voyage-add-btn {
+    margin: 10px auto;
+  }
   .card__voyage .voyage__item {
     padding: 10px 20px 0px 20px;
     align-items: center;
