@@ -290,6 +290,9 @@ body {
   .card__content .media-lg {
     display: none;
   }
+  .card__content .card__price {
+    margin-top: 10px;
+  }
 }
 
 @media screen and (min-width: 768px) {
