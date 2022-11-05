@@ -78,6 +78,8 @@
   main{
     padding-bottom: 10px;
   }
+
+  /*Containers*/
   .container-fluid{
     width: 100%;
   }
@@ -86,6 +88,8 @@
     max-width: 90%;
     margin: 0 auto;
   }
+/*Containers end*/
 
+/* Import files*/
   @import "blocks/offers";
   @import "blocks/fonts";
