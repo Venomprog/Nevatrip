@@ -17,7 +17,7 @@ function closeBlock(item, num){
 
 moreTimeBtns.forEach(item =>{
     item.addEventListener('click', (e) => {
-        const num = e.target.id;  //получение айдишника с цели клика12
+        const num = e.target.id;  //получение айдишника с цели клика
         openBlock(e.target, num); //передача номера айди и самой цели клика
     });
 });
@@ -29,7 +29,4 @@ closeTimeBtns.forEach(item =>{
     });
 });
 
-//all works correctly12341
-
-
-//comments
+//all works correctly
