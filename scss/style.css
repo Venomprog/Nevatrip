@@ -256,6 +256,7 @@ main {
   background: #D9E8FF;
   border-radius: 11px;
   padding: 6px 13px;
+  cursor: pointer;
 }
 
 .voyage-close-btn {
@@ -269,6 +270,7 @@ main {
   background: #D9E8FF;
   border-radius: 11px;
   padding: 6px 13px;
+  cursor: pointer;
 }
 
 .hidden-list {
