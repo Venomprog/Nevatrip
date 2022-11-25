@@ -284,6 +284,8 @@ main {
   text-align: center;
 }
 
+/* MEDIA */
+
 @media screen and (min-width: 768px) {
   .card__content {
     display: flex;
